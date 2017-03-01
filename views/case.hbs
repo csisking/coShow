@@ -1,0 +1,30 @@
+<div class="n-banner">
+    <img src="/res/img/case-banner.png">
+</div>
+<div class="g-grid m-case">
+
+    <div class="n-nav"></div>
+
+    <div class="m-company f-cb">
+        <ul>
+            {{#each companyList}}
+                <li>
+                    <div class="n-company-cell">
+                        <div class="u-cover">
+                            <img src="{{this.cover}}">
+                        </div>
+                        <div class="u-title">
+                            <span class="u-sep"></span>
+                            <span class="u-name">{{this.name}}</span>
+                        </div>
+                        <div class="u-project">
+                            {{this.project}}
+                        </div>
+                        <div class="u-des">{{this.des}}</div>
+                    </div>
+                </li>
+            {{/each}}
+        </ul>
+
+    </div>
+</div>

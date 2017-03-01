@@ -1,0 +1,239 @@
+//mask
+
+$width:1200px;
+
+
+body{
+  min-width: $width;
+  min-height: 100%;
+  padding: 0px;
+  position: relative;
+  font-family: 'Microsoft YaHei', arial;
+
+  .n-head{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2d3963;
+    border-bottom: 1px solid #6c7592;
+    z-index: 100;
+
+    .n-head-wrap{
+      position: relative;
+      width: $width;
+      height: 130px;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 0;
+
+      .n-logo{
+        float: left;
+        //display: inline-block;
+        width: 319px;
+        height: 54px;
+        margin-top: 25px;
+        box-sizing: border-box;
+      }
+      .n-logo-img{
+        display: block;
+        width: 319px;
+        height: 54px;
+      }
+      ul{
+        float: left;
+        height: 100%;
+        color: #ffffff;
+        font-size: 14px;
+        padding-left: 36px;
+        li{
+          float: left;
+          display: block;
+          height: 100%;
+          padding: 0 28px;
+          a{
+            height: 100%;
+            vertical-align: middle;
+            text-align: center;
+            height: 130px;
+            line-height: 130px;
+            display: block;
+          }
+          &:hover{
+            color: #e5e5e5;
+          }
+        }
+      }
+
+    }
+
+  }
+  .n-banner{
+    img{
+      width: 100%;
+    }
+  }
+  .noIndex-theme{
+    background-color: #ffffff!important;
+    .n-head-wrap {
+      position: relative;
+      width: $width;
+      height: 85px;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 0;
+
+      .n-logo {
+        float: left;
+        //display: inline-block;
+        width: 330px;
+        height: 54px;
+        margin-top: 5px;
+        box-sizing: border-box;
+      }
+      .n-logo-img {
+        display: block;
+        width: 330px;
+        height: 54px;
+        background: url(/res/img/logo2.png) no-repeat center;
+      }
+      ul{
+        li{
+          a{
+            height: 85px;
+            line-height: 85px;
+            color:#112331;
+          }
+          &:hover{
+            a{color:#287bbb;}
+          }
+        }
+      }
+    }
+  }
+
+  .index-theme{
+    .n-logo-img{
+      background: url(/res/img/logo.png) no-repeat center;
+    }
+    ul{
+      li{
+        a{color:#999999;}
+        &:hover{
+          a{color:#e5e5e5;}
+        }
+      }
+    }
+  }
+  .n-body{
+    height: 100%;
+  }
+
+
+  .n-foot{
+    width: 100%;
+    font-size: 12px;
+    background-color: #f5f5f5;
+    color: #7c7c7c;
+    text-align: center;
+
+    .u-last{
+      height: 44px;
+      padding: 43px 0;
+      color: #999999;
+      background-color: #f5f5f5;
+      .u-link{
+        width: $width;
+        height: 14px;
+        margin: 0 auto;
+        font-size: 14px;
+        text-align: center;
+        ul{
+          margin: 0 auto;
+          display: inline-block;
+          li{
+            width: 80px;
+            float: left;
+            cursor: pointer;
+            a{
+              color:#000;
+              &:hover{
+                color: #000;
+              }
+            }
+          }
+        }
+      }
+      .n-copyright{
+        width: 100%;
+        margin-top: 14px;
+        font-size: 12px;
+        color: #666666;
+        text-align: center;
+      }
+    }
+
+  }
+  .u-pr{
+    position: relative;
+  }
+  .u-mr36{
+    margin-right: 36px!important;
+  }
+
+  //back to top
+  .returnTop{
+    position: fixed;
+    right: 80px;
+    width: 50px;
+    /*width:100%;*/
+    /*min-width:1190px;*/
+    bottom: 150px;
+    z-index: 1;
+    .container{
+      width: 100%;
+      margin: 0 auto;
+      .contact_top{
+        width: 36px;
+        float: right;
+      }
+      #contact{
+        float: right;
+        height:119px;
+        width:36px;
+        margin-bottom: 3px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        border-radius:5px;
+        cursor: pointer;
+        background:url('/res/pc/frame/contact_top.png') no-repeat center;
+        background-position: -54px -42px;
+        /*background-position: 0px -42px;*/
+      }
+      #contact:hover{
+        background-position: -54px -42px;
+      }
+      #top{
+        float: right;
+        height:36px;
+        width:36px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        border-radius:5px;
+        cursor: pointer;
+        background:url('/res/pc/frame/return.png') no-repeat center;
+        /*background:url('/res/pc/frame/contact_top.png') no-repeat center;*/
+        background-position: 0px 0px;
+      }
+      #top:hover{
+        /*background-position: -54px 0px;*/
+        background:url('/res/pc/frame/returnHover.png') no-repeat center;
+      }
+    }
+  }
+
+}
+
+
+

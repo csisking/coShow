@@ -1,0 +1,47 @@
+
+.m-case{
+  .n-nav{
+    height: 55px;
+  }
+  .m-company{
+    width: 1010px;
+    margin: auto;
+    li{
+      float: left;
+      width: 490px;
+      margin-bottom: 20px;
+      //height: 450px;
+      &:nth-child(even){
+         margin-left: 20px;
+      }
+    }
+
+    .n-company-cell{
+      .u-cover{
+        width:490px;
+        height: 262px;
+      }
+      .u-sep{
+        border-left:2px solid red ;
+        font-size: 8px;
+        height: 12px;
+      }
+      .u-name{
+        margin-left: 5px;
+      }
+      .u-title{
+        margin-top: 20px;
+      }
+      .u-des{
+        margin-top: 15px;
+        color: #959895;
+      }
+      .u-project{
+        margin-top: 20px;
+        font-size: 16px;
+      }
+    }
+  }
+
+}
+

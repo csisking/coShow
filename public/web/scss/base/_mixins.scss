@@ -1,0 +1,28 @@
+@import "compass/css3/";
+@import "mixins/sprite";
+@mixin transition($property: all, $duration: 0.5s, $function: ease-in-out, $delay: 0s) {
+	-moz-transition: $property $duration $function $delay;
+	-o-transition: $property $duration $function $delay;
+	-webkit-transition: $property $duration $function $delay;
+	transition: $property $duration $function $delay;
+}
+
+@mixin transform($property: none) {
+	-webkit-transform: $property;
+	-moz-transform: $property;
+	-ms-transform: $property;
+	-o-transform: $property;
+	transform: $property;
+}
+
+@mixin animation($frame,$duration:2s,$func:ease-in-out,$delay:0s){
+	-webkit-animation:$frame $duration $func $delay;
+	animation:$frame $duration $func $delay;
+}
+
+/* IE8 透明背景mixin */ 
+@mixin transBgc($r, $g, $b, $a) {
+	background-color: rgb($r, $g, $b);
+	filter: alpha(opacity=$a * 100);
+	background-color: rgba($r, $g, $b, $a);
+}

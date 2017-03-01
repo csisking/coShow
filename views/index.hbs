@@ -1,0 +1,115 @@
+<div class="n-banner">
+    <img src="/res/img/banner1.png">
+</div>
+<div class="g-grid m-home">
+
+    <!--概述-->
+    <div class="n-overall f-cb">
+        <div class="u-cell">
+            <div class="u-face"><img src="/res/img/index-icon1.png"></div>
+            <div class="u-des">
+                <div class="title">科技实力</div>
+                <div class="u-line"></div>
+                <div class="u-content">使用前沿的节能技术
+                    专业优质的咨询服务
+                    客户最小投资获得最大节能效益
+                    中央空调系统节能可达20%-40%
+                    工业压铸机、空压机等设备可达30%-60%
+                </div>
+            </div>
+        </div>
+        <div class="u-cell f-ml20">
+            <div class="u-face"><img src="/res/img/index-icon2.png"></div>
+            <div class="u-des">
+                <div class="title">节能共赢</div>
+                <div class="u-line"></div>
+                <div class="u-content">使用前沿的节能技术
+                    专业优质的咨询服务
+                    客户最小投资获得最大节能效益
+                    中央空调系统节能可达20%-40%
+                    工业压铸机、空压机等设备可达30%-60%
+                </div>
+            </div>
+        </div>
+        <div class="u-cell f-ml20">
+            <div class="u-face"><img src="/res/img/index-icon3.png"></div>
+            <div class="u-des">
+                <div class="title">服务范围</div>
+                <div class="u-line"></div>
+                <div class="u-content">建筑能源监控平台
+                    中央空调系统节能改造工程
+                    注塑机节能、空压机节能改造
+                    采暖泵节能、压铸机节能
+                    负压及恒压供水、油田电机节能等
+                </div>
+            </div>
+        </div>
+        <div class="u-more">公司发展历程</div>
+    </div>
+    <!--技术说明-->
+    <div class="n-technical-note f-cb">
+        <div class="u-title">技术说明</div>
+        <div class="u-line"></div>
+        <div class="u-note">
+            <img src="/res/img/index-1.png">
+        </div>
+        <div class="u-note f-ml20">
+            <img src="/res/img/index-2.png">
+        </div>
+    </div>
+    <!--解决方案-->
+    <div class="n-solution f-cb">
+        <div class="u-title">解决方案</div>
+        <div class="u-line"></div>
+        <div class="u-cell">
+            <img src="/res/img/index-3.png">
+            <div class="u-des">
+                <div class="title">建筑节能</div>
+                <div class="u-content">
+                    <p>十五年建筑节能经验</p>
+                    <p>专业的节能产品研发销售团队</p>
+                    <p>多项具有自主知识产权产品</p>
+                    <p>国务院特特殊津贴的研究领军人物</p>
+                </div>
+            </div>
+        </div>
+        <div class="u-cell f-ml20">
+            <img src="/res/img/index-4.png">
+            <div class="u-des">
+                <div class="title">工业节能</div>
+                <div class="u-content">
+                    <p>压塑机、压铸机节能控制系统</p>
+                    <p>空压机节能控制系统</p>
+                    <p>电机能效提升</p>
+                </div>
+            </div>
+        </div>
+        <div class="u-more">查看更多解决方案</div>
+    </div>
+    <div class="n-add-brick">
+        {{#each tinypic}}
+        <div class="n-brick-content">
+            <a href="{{this.redirectUrl}}" target="_blank"><img src="{{this.picUrl}}" alt=""></a>
+        </div>
+        {{#unless @last}}
+        <div class="brick-seperate" data-id="{{@key}}"></div>
+        {{/unless}} {{/each}}
+    </div>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            {{#each slidePic}}
+                <div class="swiper-slide">
+                    <a href="{{this.redirectUrl}}" target="_blank">
+                        <div style="height:100%;background:url({{this.picUrl}});background-size:cover;background-position:center center;"></div>
+                    </a>
+                </div>
+            {{/each}}
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="dark-pagination swiper-pagination swiper-pagination-bullets"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>

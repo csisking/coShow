@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>杭州康灿</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="baidu-site-verification" content="v7UEg8ALz5" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+    <link rel='stylesheet' href='/web/css/style.css' />
+    <!--
+    <link rel='stylesheet' href='/res/javascripts/swiper/swiper-3.3.1.min.css'/>
+    <script src="/res/javascripts/jquery.min.js"></script>
+    <script src="/res/javascripts/swiper/swiper-3.3.1.min.js"></script>
+    -->
+</head>
+
+<body>
+    <div id="j-head" class="n-head noIndex-theme">
+        <div class="n-head-wrap">
+            <div class="n-logo">
+                <a class="n-logo-img" href="/index"></a>
+            </div>
+            <ul>
+                <li><a href="/index">公司介绍</a></li>
+                <li><a href="/technical">技术说明</a></li>
+                <li><a href="/solution">解决方案</a></li>
+                <li><a href="/case">企业案例</a></li>
+                <li><a href="/service">服务流程</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="n-body j-body">
+        {{{body}}}
+    </div>
+    <div class="n-foot">
+        <div class="u-last">
+            <div class="u-link">
+                <ul>
+                    {{#each bottomLink}}
+                    <!--<li class="seperate">&#58;</li>-->
+                    <li> <a href={{linkUrl}} target="_blank">{{linkName}}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="n-copyright">杭州康灿环境工程有限公司版权所有&copy;1997-2016</div>
+        </div>
+    </div>
+    <div class="returnTop">
+        <div class="container">
+            <div class="contact_top" style="display:none;" id="contact_top">
+                <div id="top"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mask"></div>
+
+    {{!
+    <script src="/res/javascripts/cnej/define.js?pro=/res/javascripts/pro/"></script>
+    <script src="/res/javascripts/index.js"></script>
+    }}
+</body>
+
+</html>

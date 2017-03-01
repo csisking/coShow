@@ -1,0 +1,26 @@
+{
+    "mysql": {
+        "client": "mysql",
+        "connection": {
+            "host": "127.0.0.1",
+            "port": 3306,
+            "user": "root",
+            "password": "",
+            "database": "default"
+        },
+        "pool": {
+            "min": 0,
+            "max": 7
+        },
+        "debug": true
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "options": {
+            "password": ""
+        },
+        "ttl": 604800
+    },
+    "port": 8282
+}

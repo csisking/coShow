@@ -1,0 +1,89 @@
+i.f-icon {
+  display: inline-block;
+  opacity: 1;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: inherit;
+  text-align: center;
+  speak: none;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background: url(/res/img/ui/ui_sprite.png) no-repeat 4449px 4449px;
+
+  &.success {
+    background-position: -9px -8px;
+    width: 14px;
+    height: 14px;
+  }
+
+  &.error {
+    background-position: -27px -8px;
+    width: 14px;
+    height: 14px;
+  }
+
+  &.success.big {
+    background-position: -5px -34px;
+    width: 72px;
+    height: 72px;
+  }
+
+}
+
+/** 字体图标管理 使用时请用<span class="f-icn i-****"></span> **/
+/** down arr **/
+.i-e10f:before {content: "\e10f";}
+/** circle bg **/
+.i-e18c:before {content: "\e18c";}
+/** wrong **/
+.i-e205:before {content: "\e205";}
+/** right **/
+.i-e281:before {content: "\e281";}
+/** right bold **/
+.i-e616:before {content: "\e616";}
+/** wrong bold **/
+.i-e614:before {content: "\e614";}
+/** close **/
+.i-e209:before {content: "\e209";}
+/** person **/
+.i-e253:before {content: "\e253";}
+/** lock **/
+.i-e2a1:before {content: "\e2a1";}
+/** power down **/
+.i-e2c0:before {content: "\e2c0";}
+/** star full **/
+.i-e260:before {content: "\e260";}
+/** star empty **/
+.i-e262:before {content: "\e262";}
+/** radio **/
+.i-e25e:before {content: "\e25e";}
+/** radio checked **/
+.i-e25f:before {content: "\e25f";}
+/** checkbox **/
+.i-e25d:before {content: "\e25d";}
+/** checkbox checked **/
+.i-e25c:before {content: "\e25c";}
+/** clock **/
+.i-e014:before {content: "\e014";}
+/** large top arrow **/
+.i-e900:before {content: "\e900";}
+/** edit **/
+.i-e15e:before {content: "\e15e";}
+/** tip -? **/
+.i-e0c6:before {content: "\e0c6";}
+/** angel right **/
+.i-e904:before {content: "\e904";}
+/** angel left **/
+.i-e901:before {content: "\e901";}
+/** angel double right **/
+.i-e902:before {content: "\e902";}
+/** angel doubel left **/
+.i-e903:before {content: "\e903";}
+/** 粗一些的空心圆，这个图标有点问题 **/
+.i-e905:before {content: "\e905";margin-left:1px;}
+/** camera图标 **/
+.i-e906:before {content: "\e906";}
+

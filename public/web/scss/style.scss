@@ -1,0 +1,46 @@
+//%uisprite{ background: url(/res/img/ui/ui_sprite.png) no-repeat 4449px 4449px;}
+//%logosprite{ background: url(/res/img/common/logo.png) no-repeat 4449px 4449px;}
+//
+//@import "common/commonUI/*.png";
+//
+//@include all-commonUI-sprites;
+//
+//
+//@import "base/mixins";
+@import 'base/var';
+@import 'base/reset';
+@import 'base/font';
+@import 'base/func';
+@import 'base/grid';
+@import "base/icon";
+//
+//@import 'baseui/baseui';
+//
+//@import 'common/nav/nav';
+//@import 'common/footer/footer';
+//@import 'common/side/sideUI';
+//@import "common/side/activityUI";
+//@import "common/dialog/systemDialog";
+//@import "common/dialog/loginDialog";
+//
+//@import "ui/video/videoDialog";
+
+@import 'layout';
+@import 'index';
+@import 'case';
+@import 'service';
+@import 'develop';
+@import 'solustion';
+@import 'technical';
+body{
+  background: #ffffff;
+}
+.g-grid{
+  margin:auto;
+  margin-top: 85px;
+  margin-bottom: 100px;
+  width: 1200px;
+}
+.f-ml20{
+  margin-left: 20px;
+}

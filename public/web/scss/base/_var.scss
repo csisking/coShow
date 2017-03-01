@@ -1,0 +1,116 @@
+/* 视觉颜色规范 */
+/* 背景色 */
+$main-bgcolor: #f0f0f0;
+$other-bgcolor: #fff;
+$grey-bgcolor: #f8f8f8;
+$black-bgcolor: #3f3f3f;
+
+/* 文字颜色 */
+/** 主色 **/
+$font-colorPrimary: #f46862;
+
+$font-color3: #333;
+$font-color6: #666;
+$font-color9: #999;
+$font-colorc: #ccc;
+
+$font-colorf: #fff;
+$font-color8e: #8e8e8e;
+$font-colorLink: #f46862;
+$font-colorRed: #ff3912;
+$font-colorGreen:#5fcd10;
+$font-colorGrey1: #333;
+$font-colorGrey2: #666;
+$font-colorGrey3: #999;
+$font-colorGrey4: #ccc;
+
+/* 边框 */
+$border-primaryColor:#ffa29e;
+$border-darkColor: #ccc;
+$border-lightColor: #e5e5e5;
+$border-size: 1px;
+
+/* border-radius */
+$borderRadius-sm:3px;
+$borderRadius-lg:6px;
+
+/* 通用色块 */
+$primary:#f46862;
+$primary-hover: #e9544d;
+$blue: #13bae3;
+$gray: #ccc;
+$darkGray: #999;
+$white: #fff;
+$black: #000;
+$pink : #fff8f8; 
+$green : #70d25d;
+$red  : #f03b3b;
+
+/* Dimension */
+$media-xs-max-width :                   480px - 1;
+$media-sm-max-width :                   768px - 1;
+$media-md-max-width :                   960px - 1;
+$media-lg-max-width :                   1220px - 1;
+
+
+/** 几个重要的z-index值 **/
+$side_zindex : 98;
+$nav_zindex : 99;
+$activity_zindex: 97;
+$loading_zindex : 10001;
+$modal-mask-zindex : 9999;
+$modal-zindex : 10000;
+$notify-zindex : 10002;
+
+/** grid var ***/
+$grid_large : 1200px;
+$grid_normal: 960px;
+
+
+/* Brand Colors */
+$gray-base : #777;
+$brand-primary : #13bae3;
+
+/* Form Controls */
+$formctrl_padding : 4px 6px;
+$formctrl-sm_padding : 3px 3px;
+$formctrl-lg_padding : 8px 6px;
+
+$formctrl_height : 30px;
+$formctrl-sm_height : 25px;
+$formctrl-lg_height : 40px;
+
+$formctrl-sm_font-size : 12px;
+$formctrl-lg_font-size : 16px;
+
+$formctrl_min-width : 120px;
+
+$formctrl_background : white;
+$formctrl_color : #444;
+$formctrl_border : 1px solid #ddd;
+
+$formctrl-focus_background : #f5fbfe;
+$formctrl-focus_color : #444;
+$formctrl-focus_border : #99baca;
+
+$formctrl-disabled_background : #f5f5f5;
+$formctrl-disabled_color : #999;
+$formctrl-disabled_border : #ddd;
+
+$formctrl_placeholder_color : #999;
+
+
+$formctrl_item_padding : 0 10px;
+$formctrl_item-hover_background : #eee;
+$formctrl_item-hover_color : #444;
+$formctrl_item-hover_border : null;
+
+$formctrl_item-selected_background : $primary;
+$formctrl_item-selected_color : white;
+$formctrl_item-selected_border : null;
+
+/* Subject Color */
+$subject-bg-10: #fc9c98;
+$subject-bg-20: #90c4e8;
+$subject-bg-31: #e9cd78;
+$subject-bg-32: #adce83;

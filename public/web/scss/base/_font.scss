@@ -1,0 +1,75 @@
+/* 非衬线字体 */
+.f-f0{font-family: "Arial","Hiragino Sans GB","Microsoft YaHei", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif"; }
+/* 衬线字体 */
+.f-f1{font-family: "Arial","Hiragino Sans GB", "SimSun",\5b8b\4f53, "Georgia", "serif"; }
+
+/* icon字体声明 */
+@font-face {
+  font-family: 'icomoon';
+  src:url('/res/fonts/icomoon/icomoon.eot');
+  src:url('/res/fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+  url('/res/fonts/icomoon/icomoon.ttf') format('truetype'),
+  url('/res/fonts/icomoon/icomoon.woff') format('woff'),
+  url('/res/fonts/icomoon/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'icon-edu';
+    src:  url('/res/fonts/edu/icon-edu.eot?pebamg');
+    src:  url('/res/fonts/edu/icon-edu.eot?pebamg#iefix') format('embedded-opentype'),
+    url('/res/fonts/edu/icon-edu.ttf?pebamg') format('truetype'),
+    url('/res/fonts/edu/icon-edu.woff?pebamg') format('woff'),
+    url('/res/fonts/edu/icon-edu.svg?pebamg#icon-edu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.f-icn, .u-icon {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align:-1px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 字体颜色 */
+.f-fc0{color:#000;}
+.f-fc3{color: $font-color3;}
+.f-fc6{color: $font-color6;}
+.f-fc9{color: $font-color9;}
+.f-fcc{color: $font-colorc;}
+.f-fcf{color: $font-colorf;}
+.f-fclink{color: $font-colorLink;}
+.f-fcgray{corlor: $font-color8e;}
+.f-fcprimary{color: $font-colorPrimary;}
+.f-fcgreen{color:$font-colorGreen;}
+
+
+
+/* a链接颜色，非hover色hover变hover色，hover色的hover下下划线 */
+a,a.f-fcblue{color: $font-colorLink}
+a:hover{text-decoration: none;}
+a.f-fcblue:hover{text-decoration: underline;}
+
+a.f-fc0:hover,a:hover .f-fc0,
+a.f-fc3:hover,a:hover .f-fc3,
+a.f-fc6:hover,a:hover .f-fc6,
+a.f-fc9:hover,a:hover .f-fc9,
+a.f-fcf:hover,a:hover .f-fcf{ color: $font-colorLink;text-decoration: none;}
+
+/* 字体大小 */
+.f-fs0{font-size:12px;}
+.f-fs1{font-size:14px;}
+.f-fs16{font-size:16px;}
+.f-fs18{font-size:18px;}
+.f-fs24{font-size:24px;}
+
+.f-fwb{font-weight:bold;}
