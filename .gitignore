@@ -41,3 +41,4 @@ jspm_packages
 #mac
 .DS_Store
 .idea/coShow.iml
+.idea/workspace.xml
