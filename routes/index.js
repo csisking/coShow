@@ -100,4 +100,12 @@ router.get('/technical', function (req, res, next) {
     res.render('technical', renderData);
 });
 
+router.get('/technical_1', function (req, res, next) {
+    res.render('technical_1', renderData);
+});
+
+router.get('/technical_2', function (req, res, next) {
+    res.render('technical_2', renderData);
+});
+
 module.exports = router;

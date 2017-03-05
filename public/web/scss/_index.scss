@@ -122,5 +122,28 @@
       color: #287bbb;
     }
   }
+  .n-partner{
+    .u-title{
+      margin: 50px auto 20px;
+      width: 100px;
+      font-size: 24px;
+      color: #3b444f;
+    }
+    .u-line{
+      margin: 0px auto 40px;
+      width: 32px;
+      border-bottom: 1px solid red;
+    }
+    .u-cell{
+      float:left;
+      width: 1150px;
+      border: solid 1px #f8f8f8;
+      img{
+        float: left;
+        width: 1150px;
+        height: 60px;
+      }
+    }
+  }
 }
 

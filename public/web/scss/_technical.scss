@@ -8,16 +8,71 @@
     margin-top: 20px;
     p{
       text-indent: 26px;
+
+    }
+    .title{
+      font-weight: bold;
+    }
+    .content{
+      margin-top: 10px;
+    }
+    .pic{
+      margin: 40px auto;
+      width: 1003px;
     }
   }
-  .title{
-    font-weight: bold;
-  }
-  .content{
-    margin-top: 10px;
-  }
-  .pic{
-    margin-top: 40px;
+  .n-technical{
+    width: 1010px;
+    margin: auto;
+    li{
+      float: left;
+      width: 490px;
+      margin-bottom: 20px;
+      //height: 450px;
+      &:nth-child(even){
+        margin-left: 20px;
+      }
+    }
+
+    .n-technical-cell{
+      .u-top-title{
+        margin: 0px auto 20px;
+        width: 200px;
+        font-size: 24px;
+        color: #3b444f;
+      }
+      .u-line{
+        margin: 0px auto 40px;
+        width: 32px;
+        border-bottom: 1px solid red;
+      }
+      .u-cover{
+        width:487px;
+        height: 329px;
+      }
+      .u-sep{
+        border-left:2px solid red ;
+        font-size: 8px;
+        height: 12px;
+      }
+      .u-name{
+        margin-left: 5px;
+      }
+      .u-title{
+        margin-top: 20px;
+      }
+      .u-des{
+        margin-top: 15px;
+        color: #959895;
+        a{
+          text-align: right;
+        }
+      }
+      .u-project{
+        margin-top: 20px;
+        font-size: 16px;
+      }
+    }
   }
 }
 

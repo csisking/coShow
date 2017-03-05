@@ -1043,6 +1043,27 @@ body .returnTop .container #top:hover {
   text-align: center;
   color: #287bbb;
 }
+.m-home .n-partner .u-title {
+  margin: 50px auto 20px;
+  width: 100px;
+  font-size: 24px;
+  color: #3b444f;
+}
+.m-home .n-partner .u-line {
+  margin: 0px auto 40px;
+  width: 32px;
+  border-bottom: 1px solid red;
+}
+.m-home .n-partner .u-cell {
+  float: left;
+  width: 1150px;
+  border: solid 1px #f8f8f8;
+}
+.m-home .n-partner .u-cell img {
+  float: left;
+  width: 1150px;
+  height: 60px;
+}
 
 .m-case .n-nav {
   height: 55px;
@@ -1161,14 +1182,64 @@ body .returnTop .container #top:hover {
 .m-technical .u-content p {
   text-indent: 26px;
 }
-.m-technical .title {
+.m-technical .u-content .title {
   font-weight: bold;
 }
-.m-technical .content {
+.m-technical .u-content .content {
   margin-top: 10px;
 }
-.m-technical .pic {
-  margin-top: 40px;
+.m-technical .u-content .pic {
+  margin: 40px auto;
+  width: 1003px;
+}
+.m-technical .n-technical {
+  width: 1010px;
+  margin: auto;
+}
+.m-technical .n-technical li {
+  float: left;
+  width: 490px;
+  margin-bottom: 20px;
+}
+.m-technical .n-technical li:nth-child(even) {
+  margin-left: 20px;
+}
+.m-technical .n-technical .n-technical-cell .u-top-title {
+  margin: 0px auto 20px;
+  width: 200px;
+  font-size: 24px;
+  color: #3b444f;
+}
+.m-technical .n-technical .n-technical-cell .u-line {
+  margin: 0px auto 40px;
+  width: 32px;
+  border-bottom: 1px solid red;
+}
+.m-technical .n-technical .n-technical-cell .u-cover {
+  width: 487px;
+  height: 329px;
+}
+.m-technical .n-technical .n-technical-cell .u-sep {
+  border-left: 2px solid red;
+  font-size: 8px;
+  height: 12px;
+}
+.m-technical .n-technical .n-technical-cell .u-name {
+  margin-left: 5px;
+}
+.m-technical .n-technical .n-technical-cell .u-title {
+  margin-top: 20px;
+}
+.m-technical .n-technical .n-technical-cell .u-des {
+  margin-top: 15px;
+  color: #959895;
+}
+.m-technical .n-technical .n-technical-cell .u-des a {
+  text-align: right;
+}
+.m-technical .n-technical .n-technical-cell .u-project {
+  margin-top: 20px;
+  font-size: 16px;
 }
 
 body {

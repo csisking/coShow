@@ -42,3 +42,8 @@ jspm_packages
 .DS_Store
 .idea/coShow.iml
 .idea/workspace.xml
+
+*/.idea/
+.idea/
+
+*/.sass-cache
