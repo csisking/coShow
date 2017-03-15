@@ -785,6 +785,7 @@ body .n-head .n-head-wrap ul li a {
 }
 body .n-head .n-head-wrap ul li:hover {
   color: #e5e5e5;
+  border-bottom: 1px solid  #287bbb;
 }
 body .n-banner img {
   width: 100%;
